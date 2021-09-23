@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AsignacionDeOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
       "projectName": "Ofi.App.Dominio",
-      "projectPath": "C:\\AsignacionDeOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
+      "projectPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
-      "outputPath": "C:\\AsignacionDeOficinas\\Ofi.App\\Ofi.App.Dominio\\obj\\",
+      "outputPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
