@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Ofi.App.Dominio; 
 namespace Ofi.App.Consola
 {
     class Program
