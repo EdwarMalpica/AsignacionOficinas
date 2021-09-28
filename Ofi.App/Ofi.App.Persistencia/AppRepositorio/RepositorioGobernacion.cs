@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using Ofi.App.Dominio;
-Using System.Linq;
+using System.Linq;
 
 
 namespace Ofi.App.Persistencia
@@ -31,32 +31,32 @@ namespace Ofi.App.Persistencia
 
             Gobernacion IRepositorioGobernacion.GetGobernacion(int idGobernacion)
             {
-                var GobernacionEncontrada = _appContext.Gobernacion.FirstOrDefault(g=>g.id==idGobernacion);
-                return gobernacionEncontrada;
+                var GobernacionEncontrada = _appContext.gobernaciones.FirstOrDefault(g=>g.id==idGobernacion);
+                return GobernacionEncontrada;
 
             }
 
             //AddGobernacion
             Gobernacion IRepositorioGobernacion.AddGobernacion(Gobernacion gobernacion )
             {
-            var GobernacionAdicionada = _appContext.gobernaciones.Add(Gobernacion);
+            var GobernacionAdicionada = _appContext.gobernaciones.Add(gobernacion);
             _appContext.SaveChanges();
-            return gobernacionAdicionada.Entity;
+            return GobernacionAdicionada.Entity;
             }
 
             //UpdateGobernacion
             Gobernacion IRepositorioGobernacion.UpdateGobernacion(Gobernacion gobernacion)
             {
 
-                var gobernacionEncontrada = _appContext.gobernaciones.FirstOrDefault(g=>g.id==gobernacion.id);
-                if (gobernacionEncontrada != null)
+                var GobernacionEncontrada = _appContext.gobernaciones.FirstOrDefault(g=>g.id==gobernacion.id);
+                if (GobernacionEncontrada != null)
                 {
-                    gobernacionEncontrada.oficinas= gobernacion.oficinas;
+                    GobernacionEncontrada.oficinas= gobernacion.oficinas;
 
                     _appContext.SaveChanges();
 
                 }
-                return gobernacionEncontrada;
+                return GobernacionEncontrada;
 
             }
 

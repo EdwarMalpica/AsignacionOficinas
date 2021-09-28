@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using Ofi.App.Persistencia;
 using Ofi.App.Dominio;
+
 
 namespace Ofi.App.Persistencia
 {
@@ -20,7 +22,7 @@ public interface IRepositorioGobernacion
     Gobernacion UpdateGobernacion(Gobernacion gobernacion);
 
     //DeleteGobernacion
-    void DeleteGobernacion(int idGobernacion)
+    void DeleteGobernacion(int idGobernacion);
 
 
 
