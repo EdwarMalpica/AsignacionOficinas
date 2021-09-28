@@ -17,13 +17,13 @@
           "C:\\Users\\EDWIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
                 "projectPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
@@ -41,7 +41,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -50,12 +50,22 @@
               "version": "[5.0.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
         }
       }
     },
@@ -125,13 +135,13 @@
           "C:\\Users\\EDWIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
+          "netstandard2.1": {
             "projectReferences": {
               "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
                 "projectPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
@@ -146,7 +156,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
+        "netstandard2.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -167,6 +177,21 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"

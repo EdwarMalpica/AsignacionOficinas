@@ -13,7 +13,7 @@ namespace Ofi.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AdicionarGobernacion(1);
+            AdicionarGobernacion();
             ActualizarGobernacion(1);
             EncontrarGobernacion(1);
             EncontrarGobernaciones();
@@ -41,7 +41,7 @@ namespace Ofi.App.Consola
                     id=idGobernacion
                 };
 
-            Gobernacion gobernacionActualizada =_repoGobernacion.UpdateGobernacion(gobernacion)
+            Gobernacion gobernacionActualizada =_repoGobernacion.UpdateGobernacion(gobernacion);
             if (profesorActuliazado != null)
                 Console.WriteLine("se actualizó la gobernacion");
 
@@ -58,11 +58,11 @@ namespace Ofi.App.Consola
 
         private static void EncontrarGobernaciones()
         {
-            IEnumerable<Gobernacion> gobernaciones = _repoGobernacion.GetAllGobernaciones()
+            IEnumerable<Gobernacion> gobernaciones = _repoGobernacion.GetAllGobernaciones();
 
             foreach (var gobernacion in gobernaciones)
             {
-                console.WriteLine(profesor.id)
+                console.WriteLine(profesor.id);
             }
 
         }
@@ -72,7 +72,7 @@ namespace Ofi.App.Consola
         private static void EliminarGobernacion (int idGobernacion)
         {
             _repoGobernacion.DeleteGobernacion();
-            console.WriteLine("Se elimino")
+            console.WriteLine("Se elimino");
 
         }
 

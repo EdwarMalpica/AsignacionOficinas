@@ -1,0 +1,4 @@
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.csprojAssemblyReference.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.AssemblyInfoInputs.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.AssemblyInfo.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.csproj.CoreCompileInputs.cache
