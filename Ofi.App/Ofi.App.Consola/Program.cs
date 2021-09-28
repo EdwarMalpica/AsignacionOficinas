@@ -41,8 +41,8 @@ namespace Ofi.App.Consola
                     id=idGobernacion
                 };
 
-            Gobernacion gobernacionActualizada =_repoGobernacion.UpdateGobernacion(gobernacion);
-            if (profesorActuliazado != null)
+            Gobernacion GobernacionActualizada =_repoGobernacion.UpdateGobernacion(gobernacion);
+            if (GobernacionActualizada != null)
                 Console.WriteLine("se actualizó la gobernacion");
 
         }
@@ -50,8 +50,8 @@ namespace Ofi.App.Consola
         //EncontrarGobernacion
         private static void EncontrarGobernacion (int idGobernacion)
         {
-            var gobernacionEncontrada = _repoGobernacion.GetGobernacion(idGobernacion);
-            console.WriteLine(gobernacionEncontrada.id);
+            var GobernacionEncontrada = _repoGobernacion.GetGobernacion(idGobernacion);
+            Console.WriteLine(GobernacionEncontrada.id);
         }
 
         //EncontrarGobernaciones
@@ -62,7 +62,7 @@ namespace Ofi.App.Consola
 
             foreach (var gobernacion in gobernaciones)
             {
-                console.WriteLine(profesor.id);
+                Console.WriteLine(gobernacion.id);
             }
 
         }
@@ -71,8 +71,8 @@ namespace Ofi.App.Consola
 
         private static void EliminarGobernacion (int idGobernacion)
         {
-            _repoGobernacion.DeleteGobernacion();
-            console.WriteLine("Se elimino");
+            _repoGobernacion.DeleteGobernacion(idGobernacion);
+            Console.WriteLine("Se elimino");
 
         }
 
