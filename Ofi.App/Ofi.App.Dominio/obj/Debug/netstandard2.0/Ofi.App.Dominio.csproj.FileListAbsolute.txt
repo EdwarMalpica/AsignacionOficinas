@@ -7,3 +7,4 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.pdb
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.csproj.AssemblyReference.cache
