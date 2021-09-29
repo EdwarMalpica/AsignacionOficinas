@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PVi/Z2KxsRzR1hrm+qyjfLYUZ8fT369P8RlIXfR+V96rH2B6IZ6Da16Pjlb5lfA9ptT8g/RAb9cZdRZMCg4xSA==",
+  "dgSpecHash": "wafxk2Egy/ZV7gzsVLY4IrcHxA6bT2y2PW1tAQ+0iJfc3Vc9rWDRZCO5DvnZZeBFvjyc//n0efT2Bt8b8Qxerw==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eduar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eduar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
