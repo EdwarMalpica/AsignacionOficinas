@@ -69,7 +69,7 @@ namespace Ofi.App.Consola
 
         //EliminarGobernacion
 
-        private static void EliminarGobernacion (int idGobernacion)
+     private static void EliminarGobernacion (int idGobernacion)
         {
             _repoGobernacion.DeleteGobernacion(idGobernacion);
             Console.WriteLine("Se elimino");
