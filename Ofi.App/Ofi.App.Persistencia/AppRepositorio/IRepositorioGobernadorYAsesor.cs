@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using ofi.App.Dominio;
+using Ofi.App.Dominio;
 
-namespace ofi.App.Persistencia
+namespace Ofi.App.Persistencia
 
  {
      public interface IRepositorioGobernadorYAsesor
@@ -9,14 +9,14 @@ namespace ofi.App.Persistencia
      { 
          //CRUD 
          //GetAllGobernadorYAsesor
-         IEnumerable <GobernadorYAsesor> GetAllGobernadorYAsesor();
+         IEnumerable<GobernadorYAsesor> GetAllGobernadorYAsesor();
          //GetAllGobernadorYAsesor
          GobernadorYAsesor GetGobernadorYAsesor(int idGobernadorYAsesor);
          //AddGobernadorYAsesor
-         GobernadorYAsesor AddGobernadorYAsesor (Gobernador GobernadorYAsesor);
+         GobernadorYAsesor AddGobernadorYAsesor(GobernadorYAsesor gobernadoryasesor);
          
          //UpdateGobernadorYAsesor
-         GobernadorYAsesor UpdateGobernadorYAsesor (int idGobernadorYAsesor); 
+         GobernadorYAsesor UpdateGobernadorYAsesor(GobernadorYAsesor gobernadoryasesor); 
           //DeleteGobernadorYAsesor
           void DeleteGobernadorYAsesor (int idGobernadorYAsesor);
      }
