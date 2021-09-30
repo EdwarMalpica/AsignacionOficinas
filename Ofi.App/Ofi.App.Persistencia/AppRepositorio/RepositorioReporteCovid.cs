@@ -41,7 +41,7 @@ namespace Ofi.App.Persistencia
             {
             var ReporteCovidAdicionado = _appContext.reporte_covid.Add(reporte_covid);
             _appContext.SaveChanges();
-            return ReporteCovidAdicionada.Entity;
+            return ReporteCovidAdicionado.Entity;
             }
 
 

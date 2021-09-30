@@ -19,11 +19,12 @@ public interface IRepositorioReporteCovid
     ReporteCovid AddReporteCovid(ReporteCovid reporteCovid);
 
     //UpdateReporteCovid
-    Gobernacion UpdateGobernacion(ReporteCovid reporteCovid);
+    //Gobernacion UpdateGobernacion(ReporteCovid reporteCovid);
 
     //DeleteReporteCovid
     void DeleteReporteCovid(int idReporteCovid);
 
 
 
+}
 }

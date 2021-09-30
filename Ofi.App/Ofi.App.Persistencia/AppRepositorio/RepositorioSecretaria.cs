@@ -31,7 +31,7 @@ namespace Ofi.App.Persistencia
 
             Secretaria IRepositorioSecretaria.GetSecretaria(int idSecretaria)
             {
-                varSecretariaEncontrada = _appContext.secretarias.FirstOrDefault(g=>g.id==idSecretaria);
+                var SecretariaEncontrada = _appContext.secretarias.FirstOrDefault(g=>g.id==idSecretaria);
                 return SecretariaEncontrada;
 
             }
