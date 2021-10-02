@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eduar\\.nuget\\packages\\": {}
+    "C:\\Users\\Andrea Hernandez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Asignacion Oficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj",
       "projectName": "Ofi.App.Persistencia",
-      "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Asignacion Oficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Andrea Hernandez\\.nuget\\packages\\",
+      "outputPath": "C:\\Asignacion Oficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Andrea Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
-              "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
+            "C:\\Asignacion Oficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
+              "projectPath": "C:\\Asignacion Oficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
             }
           }
         }
@@ -7346,7 +7346,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problema al leer el archivo de caché C:\\Asignacion Oficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }
