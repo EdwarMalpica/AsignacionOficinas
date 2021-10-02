@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "wafxk2Egy/ZV7gzsVLY4IrcHxA6bT2y2PW1tAQ+0iJfc3Vc9rWDRZCO5DvnZZeBFvjyc//n0efT2Bt8b8Qxerw==",
+  "dgSpecHash": "o38eS71djo+lviAdQpJwqDJUpZHgmdUBy/o0AjmhzsGxtt+/52cOqofZIVj2UiVw5twn0xBYLXbTS2N8QtrR1Q==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
+  "projectFilePath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\eduar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\eduar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\natal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\natal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problema al leer el archivo de caché C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

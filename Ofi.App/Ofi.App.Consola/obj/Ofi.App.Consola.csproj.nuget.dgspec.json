@@ -17,13 +17,22 @@
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
+<<<<<<< HEAD
           "netcoreapp3.1"
+=======
+          "netstandard2.1"
+>>>>>>> Rama-Natalia-Vista
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+<<<<<<< HEAD
           "netcoreapp3.1": {
+=======
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+>>>>>>> Rama-Natalia-Vista
             "projectReferences": {
               "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
                 "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
@@ -41,7 +50,12 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "netcoreapp3.1": {
+=======
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+>>>>>>> Rama-Natalia-Vista
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -61,7 +75,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
@@ -89,6 +103,10 @@
         },
         "frameworks": {
           "netstandard2.0": {
+<<<<<<< HEAD
+=======
+            "targetAlias": "netstandard2.0",
+>>>>>>> Rama-Natalia-Vista
             "projectReferences": {}
           }
         },
@@ -100,6 +118,10 @@
       },
       "frameworks": {
         "netstandard2.0": {
+<<<<<<< HEAD
+=======
+          "targetAlias": "netstandard2.0",
+>>>>>>> Rama-Natalia-Vista
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -118,7 +140,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> Rama-Natalia-Vista
         }
       }
     },
@@ -142,6 +168,10 @@
         },
         "frameworks": {
           "netstandard2.1": {
+<<<<<<< HEAD
+=======
+            "targetAlias": "netstandard2.1",
+>>>>>>> Rama-Natalia-Vista
             "projectReferences": {
               "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
                 "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
@@ -157,6 +187,10 @@
       },
       "frameworks": {
         "netstandard2.1": {
+<<<<<<< HEAD
+=======
+          "targetAlias": "netstandard2.1",
+>>>>>>> Rama-Natalia-Vista
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

@@ -1,0 +1,15 @@
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.csproj.AssemblyReference.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.AssemblyInfoInputs.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.AssemblyInfo.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.csproj.CoreCompileInputs.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netstandard2.1\Ofi.App.Consola.deps.json
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netstandard2.1\Ofi.App.Consola.dll
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netstandard2.1\Ofi.App.Consola.pdb
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netstandard2.1\Ofi.App.Dominio.dll
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netstandard2.1\Ofi.App.Persistencia.dll
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netstandard2.1\Ofi.App.Dominio.pdb
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.csproj.CopyComplete
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.dll
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netstandard2.1\Ofi.App.Consola.pdb
