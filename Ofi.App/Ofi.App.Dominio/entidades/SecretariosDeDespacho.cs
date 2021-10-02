@@ -16,5 +16,6 @@ namespace Ofi.App.Dominio
 
         public int id { get; set; }
         public Oficina despacho { get; set; }
+      //  public int desOficinas { get; set; }
     }
 }
