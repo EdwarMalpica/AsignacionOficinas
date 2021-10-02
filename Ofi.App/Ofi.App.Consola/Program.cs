@@ -2,6 +2,8 @@
 using Ofi.App.Dominio;
 using Ofi.App.Persistencia;
 using System.Collections.Generic;
+//using System.Collections.IEnumerable;
+
 
 
 
@@ -14,20 +16,27 @@ namespace Ofi.App.Consola
         {
             Console.WriteLine("Hello World!");
             AdicionarGobernacion();
-            ActualizarGobernacion(1);
-            EncontrarGobernacion(1);
+            ActualizarGobernacion(2);
+            EncontrarGobernacion(2);
             EncontrarGobernaciones();
-            EliminarGobernacion(1);
+            EliminarGobernacion(2);
         }
 
         //AdicionarGobernacion
         private static void AdicionarGobernacion()
         {
 
-                var gobernacion= new Gobernacion
-                {
-                    listaSecretarias
+                //var gobernacion= new Gobernacion(1,"secretaria salud",new List<Secretaria>());
+                var gobernacion= new Gobernacion{
+
+                     listaSecretarias= new List<Secretaria>(),
+                    nombre ="secretaria salud"
+                       
+
+            
+
                 };
+
 
                 _repoGobernacion.AddGobernacion(gobernacion);
 
@@ -36,10 +45,13 @@ namespace Ofi.App.Consola
         //ActualizarGobernacion
         private static void ActualizarGobernacion (int idGobernacion)
         {
-                var gobernacion = new Gobernacion
-                {
-                    id=idGobernacion
-                };
+               //var gobernacion= new Gobernacion(1,"secretaria salud",new List<Secretaria>());
+               var gobernacion= new Gobernacion{
+
+                   id=idGobernacion,
+                   nombre="secretaria transporte",
+                    listaSecretarias= new List<Secretaria>()
+               };
 
             Gobernacion GobernacionActualizada =_repoGobernacion.UpdateGobernacion(gobernacion);
             if (GobernacionActualizada != null)
