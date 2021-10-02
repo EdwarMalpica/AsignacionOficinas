@@ -1,0 +1,9 @@
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.csprojAssemblyReference.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.AssemblyInfoInputs.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.AssemblyInfo.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\bin\Debug\netstandard2.0\Ofi.App.Dominio.deps.json
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\bin\Debug\netstandard2.0\Ofi.App.Dominio.dll
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\bin\Debug\netstandard2.0\Ofi.App.Dominio.pdb
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.dll
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.pdb

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Ofi.App.Dominio
 {
@@ -7,7 +8,7 @@ namespace Ofi.App.Dominio
 
         public int id { get; set; }
         public string nombre { get; set; }
-        public List<Secretarias> listaSecretarias { get; set; }
+        public List<Secretaria> listaSecretarias { get; set; }
         
     }
 }
