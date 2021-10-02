@@ -1,5 +1,5 @@
 using System;
-
+using System.Collections.Generic;
 namespace Ofi.App.Dominio
 {
     public class Secretaria

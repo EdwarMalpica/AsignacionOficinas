@@ -39,7 +39,7 @@ namespace Ofi.App.Persistencia
               
               ingresoEncontrado.horaIngreso = ingreso.horaIngreso;
               ingresoEncontrado.persona = ingreso.persona;
-              ingresoEncontrado.oficina = ingreso.persona;
+              ingresoEncontrado.oficina = ingreso.oficina;
                _appContext.SaveChanges();
             }
             return ingresoEncontrado;
