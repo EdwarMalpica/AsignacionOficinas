@@ -5797,19 +5797,32 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\eduar\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\EDWIN\\.nuget\\packages\\": {}
+>>>>>>> Rama-Edwin-Vista
   },
   "project": {
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\Ofi.App.Consola.csproj",
       "projectName": "Ofi.App.Consola",
+<<<<<<< HEAD
       "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\Ofi.App.Consola.csproj",
       "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
       "outputPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\Ofi.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\EDWIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\EDWIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Rama-Edwin-Vista
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
