@@ -1,12 +1,15 @@
+<<<<<<< HEAD
+=======
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csprojAssemblyReference.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfoInputs.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfo.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.CoreCompileInputs.cache
+>>>>>>> ramaEdwin
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Persistencia.deps.json
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Persistencia.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Dominio.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Dominio.pdb
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfoInputs.cache
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfo.cs
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.CoreCompileInputs.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.CopyComplete
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csprojAssemblyReference.cache

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.csprojAssemblyReference.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.AssemblyInfoInputs.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.AssemblyInfo.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.csproj.CoreCompileInputs.cache
+>>>>>>> ramaEdwin
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netcoreapp3.1\Ofi.App.Consola.exe
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netcoreapp3.1\Ofi.App.Consola.deps.json
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netcoreapp3.1\Ofi.App.Consola.runtimeconfig.json
@@ -58,10 +65,6 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netcoreapp3
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netcoreapp3.1\Ofi.App.Persistencia.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netcoreapp3.1\Ofi.App.Dominio.pdb
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\bin\Debug\netcoreapp3.1\Ofi.App.Persistencia.pdb
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.csprojAssemblyReference.cache
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.AssemblyInfoInputs.cache
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.AssemblyInfo.cs
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.csproj.CoreCompileInputs.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.csproj.CopyComplete
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\netcoreapp3.1\Ofi.App.Consola.pdb
