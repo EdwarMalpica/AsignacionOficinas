@@ -1,7 +1,7 @@
 ﻿using System;
 using Ofi.App.Dominio;
 using Ofi.App.Persistencia;
-
+using System.Collections.Generic;
 
 namespace Ofi.App.Consola
 {
@@ -11,28 +11,29 @@ namespace Ofi.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //AdicionarSecretarioDeDespacho();
-            //ActualizarSecretarioDeDespacho(1);
+            AdicionarSecretarioDeDespacho();
+           // ActualizarSecretarioDeDespacho(1);
             //EncontrarSecretarioDeDespacho(1);
             //EncontrarSecretarioDeDespacho(2);
-            EncontrarSecretarioDeDespacho(3);
-            EncontrarSecretarioDeDespachoes();
+          //  EncontrarSecretarioDeDespacho(3);
+          //  EncontrarSecretarioDeDespachoes();
             //EliminarSecretarioDeDespacho(2);
         }
+        
+        
         //CRUD
         //AdicionarSecretarioDeDespacho
         private static void AdicionarSecretarioDeDespacho()
         {
-            var secretario_de_despacho = new SecretarioDeDespacho
+            var secretario_de_despacho = new SecretariosDeDespacho
             {
-                nombre = "Natalia",
-                apellido = "Segura",
-                edad = 20,
-                despacho = "30",
-                
+                    aforoMaximo= 4
+              //desOficinas= 4
             };
-            _repoSecretarioDeDespacho.AddSecretarioDeDespacho(secretario_de_despacho);
+            _repoSecretarioDeDespacho.AddSecretariosDeDespacho(secretario_de_despacho);
         }
+
+        /*
 
         //ActualizarSecretarioDeDespacho
         private static void ActualizarSecretarioDeDespacho(int idSecretarioDeDespacho)
@@ -80,7 +81,7 @@ namespace Ofi.App.Consola
                 Console.WriteLine("Hubo un error al acceder a la base de datos");
             }
         }
-
+            */
 
 
     }
