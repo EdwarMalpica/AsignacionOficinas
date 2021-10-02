@@ -2,7 +2,7 @@ using System;
 
 namespace Ofi.App.Dominio
 {
-    public class ProveedoresDeServicio : Persona
+    public class ProveedoresDeServicios : Persona
     {
         public int id { get; set; }
         public string servicioRealizado { get; set; }

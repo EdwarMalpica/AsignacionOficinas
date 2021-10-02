@@ -1,4 +1,6 @@
 ﻿using System;
+using Ofi.App.Dominio;
+using Ofi.App.Persistencia;
 
 namespace Ofi.App.Consola
 {
