@@ -14,6 +14,8 @@ namespace Ofi.App.Persistencia
         public DbSet<PersonalDeAseo>            personal_de_aseo {get;set;}
         public DbSet<SecretariosDeDespacho>     secretarios_de_despacho {get;set;}
         public DbSet<ProveedoresDeServicio>     proveedores_de_servicio {get;set;}
+        public DbSet<Ingreso>                   ingresos {get;set;}
+
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
         if(!optionsBuilder.IsConfigured){

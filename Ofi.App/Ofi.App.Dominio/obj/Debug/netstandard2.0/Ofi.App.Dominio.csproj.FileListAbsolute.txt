@@ -1,0 +1,4 @@
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.csprojAssemblyReference.cache
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.AssemblyInfoInputs.cache
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.AssemblyInfo.cs
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Dominio\obj\Debug\netstandard2.0\Ofi.App.Dominio.csproj.CoreCompileInputs.cache

@@ -11,3 +11,5 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netsta
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.CopyComplete
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.dll
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
