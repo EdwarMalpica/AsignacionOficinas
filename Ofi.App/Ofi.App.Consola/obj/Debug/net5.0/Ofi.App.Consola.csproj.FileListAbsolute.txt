@@ -66,3 +66,4 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\net5.0\Ofi.
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\net5.0\ref\Ofi.App.Consola.dll
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\net5.0\Ofi.App.Consola.pdb
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\net5.0\Ofi.App.Consola.genruntimeconfig.cache
+C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Consola\obj\Debug\net5.0\Ofi.App.Consola.pdb

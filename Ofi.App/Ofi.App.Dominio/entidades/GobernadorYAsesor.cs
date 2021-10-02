@@ -1,10 +1,19 @@
 using System;
+using System.Collections.Generic;
 
 namespace Ofi.App.Dominio
 {
     public class GobernadorYAsesor : Persona
     {
+       
+
+        public GobernadorYAsesor(int idPersona, string nombre, string apellido, int edad, EstadoCovid estadoCovid,int id) : base(idPersona, nombre, apellido, edad, estadoCovid)
+        {
+            this.id = id;
+        }
+
+       
         public int id { get; set; }
-        public System.Collections.Generic.List<Oficina> oficinasVisitadas {get;set;}
+        public List<Oficina> oficinasVisitadas { get; set; }
     }
 }
