@@ -7,10 +7,10 @@ namespace Ofi.App.Dominio
     {
        
 
-        public GobernadorYAsesor(int idPersona, string nombre, string apellido, int edad, EstadoCovid estadoCovid,int id) : base(idPersona, nombre, apellido, edad, estadoCovid)
+      /*  public GobernadorYAsesor(int idPersona, string nombre, string apellido, int edad, EstadoCovid estadoCovid,int id) : base(idPersona, nombre, apellido, edad, estadoCovid)
         {
             this.id = id;
-        }
+        } */
 
        
         public int id { get; set; }
