@@ -5738,34 +5738,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eduar\\.nuget\\packages\\": {}
+    "C:\\Users\\natal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Ofi.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Ofi.App.Frontend.csproj",
       "projectName": "Ofi.App.Frontend",
-      "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Ofi.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\obj\\",
+      "projectPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Ofi.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
-              "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
+            "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj": {
+              "projectPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Dominio\\Ofi.App.Dominio.csproj"
             },
-            "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj": {
-              "projectPath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj"
+            "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj": {
+              "projectPath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Persistencia\\Ofi.App.Persistencia.csproj"
             }
           }
         }
@@ -5778,6 +5781,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -5796,7 +5800,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
