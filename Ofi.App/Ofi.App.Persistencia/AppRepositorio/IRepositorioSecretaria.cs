@@ -19,7 +19,7 @@ public interface IRepositorioSecretaria
     Secretaria AddSecretaria(Secretaria secretaria);
 
     //UpdateSecretaria
-    //Secretaria UpdateSecretaria(Secretaria secretaria);
+    Secretaria UpdateSecretaria(Secretaria secretaria);
 
     //DeleteSecretaria
     void DeleteSecretaria(int idSecretaria);

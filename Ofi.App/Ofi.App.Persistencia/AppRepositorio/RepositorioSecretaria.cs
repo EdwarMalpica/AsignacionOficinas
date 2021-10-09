@@ -44,6 +44,22 @@ namespace Ofi.App.Persistencia
             return SecretariaAdicionada.Entity;
             }
 
+            //UpdateSecretaria
+            Secretaria IRepositorioSecretaria.UpdateSecretaria(Secretaria secretaria)
+            {
+
+                var SecretariaEncontrada = _appContext.secretarias.FirstOrDefault(g=>g.id==secretaria.id);
+                if (SecretariaEncontrada != null)
+                {
+                    SecretariaEncontrada.listaOficinas= secretaria.listaOficinas;
+
+                    _appContext.SaveChanges();
+
+                }
+                return SecretariaEncontrada;
+
+            }
+
 
             //DeleteSecretaria
             void IRepositorioSecretaria.DeleteSecretaria (int idSecretaria)

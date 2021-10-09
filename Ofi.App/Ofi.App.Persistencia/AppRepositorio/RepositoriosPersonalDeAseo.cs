@@ -12,8 +12,8 @@ namespace Ofi.App.Persistencia
                 new PersonalDeAseo(){idPersona = 1,nombre = "Carlos",apellido = "Duarte",edad = 15,estadoCovid = EstadoCovid.negativo, id = 2,turno = Turno.diurno, unidadServicio = null},
                 new PersonalDeAseo(){idPersona = 5,nombre = "Juan",apellido = "Duarte",edad = 15,estadoCovid = EstadoCovid.negativo, id = 25,turno = Turno.diurno, unidadServicio = null}
             };*/
-            personalDeAseos.Add(new PersonalDeAseo(1,"Carlos","Duarte",15,EstadoCovid.negativo,5,Turno.diurno
-            ,null));
+            //personalDeAseos.Add(new PersonalDeAseo(1,"Carlos","Duarte",15,EstadoCovid.negativo,5,Turno.diurno
+            //,null));
         }
         private readonly AppContext _appContext;
         public RepositoriosPersonalDeAseo(AppContext appContext){

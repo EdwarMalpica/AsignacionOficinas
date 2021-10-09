@@ -44,6 +44,22 @@ namespace Ofi.App.Persistencia
             return ReporteCovidAdicionado.Entity;
             }
 
+             //UpdateReporteCovid
+            ReporteCovid IRepositorioReporteCovid.UpdateReporteCovid(ReporteCovid reporte_covid)
+            {
+
+                var ReporteCovidEncontrada = _appContext.reporte_covid.FirstOrDefault(g=>g.id==reporte_covid.id);
+                if (ReporteCovidEncontrada != null)
+                {
+                    ReporteCovidEncontrada.id= reporte_covid.id;
+
+                    _appContext.SaveChanges();
+
+                }
+                return ReporteCovidEncontrada;
+
+            }
+
 
             //DeleteReporteCovid
             void IRepositorioReporteCovid.DeleteReporteCovid (int idReporteCovid)

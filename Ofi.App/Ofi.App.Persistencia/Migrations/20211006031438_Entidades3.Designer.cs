@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Ofi.App.Persistencia;
 
 namespace Ofi.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    partial class AppContextModelSnapshot : ModelSnapshot
+    [Migration("20211006031438_Entidades3")]
+    partial class Entidades3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -77,6 +79,9 @@ namespace Ofi.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("estadoCovid")
+                        .HasColumnType("int");
+
+                    b.Property<int>("idPersona")
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
