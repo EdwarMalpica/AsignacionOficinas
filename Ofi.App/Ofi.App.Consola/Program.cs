@@ -12,7 +12,7 @@ namespace Ofi.App.Consola
 {
     class Program
     {
-        private static IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new Persistencia.AppContext());
+        private static IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new Ofi.App.Persistencia.AppContext());
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");

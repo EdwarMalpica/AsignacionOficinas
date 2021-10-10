@@ -52,6 +52,7 @@ namespace Ofi.App.Persistencia
                 if (GobernacionEncontrada != null)
                 {
                     GobernacionEncontrada.listaSecretarias= gobernacion.listaSecretarias;
+                    GobernacionEncontrada.nombre=gobernacion.nombre;
 
                     _appContext.SaveChanges();
 

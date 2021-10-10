@@ -11,7 +11,7 @@ namespace Ofi.App.Frontend.Pages
 {
     public class DetallesGobernacionModel : PageModel
     {
-        private static IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new Persistencia.AppContext());
+       private static IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new Ofi.App.Persistencia.AppContext());
         public Gobernacion gobernacion {get;set;}
 
         public IActionResult OnGet(int gobernacionid)
@@ -20,10 +20,11 @@ namespace Ofi.App.Frontend.Pages
             Console.WriteLine(gobernacion.id);
             if(gobernacion==null)
             {
-                return RedirectToPage("./Gobernacion");
+                return RedirectToPage("./Gobernaciones");
             }else{
                 return Page();
             }
+            
 
 
 

@@ -14,7 +14,7 @@ namespace Ofi.App.Frontend.Pages
     {
 
         
-        private static IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new Persistencia.AppContext());
+        private static IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new Ofi.App.Persistencia.AppContext());
         public IEnumerable<Gobernacion> gobernaciones {get;set;}
           public Gobernacion gobernacion{get;set;}
 
