@@ -13,7 +13,7 @@ namespace Ofi.App.Dominio
         } */
 
        
-        public int id { get; set; }
+       // public int id { get; set; }
         public List<Oficina> oficinasVisitadas { get; set; }
     }
 }

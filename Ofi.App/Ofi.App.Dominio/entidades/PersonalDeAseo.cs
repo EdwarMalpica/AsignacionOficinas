@@ -11,7 +11,7 @@ namespace Ofi.App.Dominio
             this.unidadServicio = unidadServicio;
         }*/
 
-        public int id { get; set; }
+        //public int id { get; set; }
         public Turno turno { get; set; }
         public Secretaria unidadServicio { get; set; }
     }

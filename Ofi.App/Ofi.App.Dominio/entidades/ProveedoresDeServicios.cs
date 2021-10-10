@@ -12,7 +12,7 @@ namespace Ofi.App.Dominio
             this.unidadServicio = unidadServicio;
         }*/
 
-        public int id { get; set; }
+       // public int id { get; set; }
         public string servicioRealizado { get; set; }
         public Secretaria unidadServicio { get; set; }
     }
