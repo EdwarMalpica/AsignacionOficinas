@@ -1,4 +1,24 @@
 ﻿@page
 @model Ofi.App.Frontend.Pages.GobernacionModel
-@{
-}
+@{}
+
+<h1>Lista Gobernaciones</h1>
+
+<table class="table">
+    @foreach (var Gobernacion in Model.gobernaciones)
+    {
+        <tr>
+            <td> @Gobernacion.id</td>
+            <td> @Gobernacion.nombre</td>
+            
+        </tr>
+    }
+   
+</table>
+
+
+
+
+
+
+
