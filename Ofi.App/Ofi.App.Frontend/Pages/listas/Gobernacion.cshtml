@@ -5,20 +5,18 @@
 <h1>Lista Gobernaciones</h1>
 
 <table class="table">
-    @foreach (var Gobernacion in Model.gobernaciones)
+    @foreach (var gobernacion in Model.gobernaciones)
     {
         <tr>
-            <td> @Gobernacion.id</td>
-            <td> @Gobernacion.nombre</td>
-            
-        </tr>
-    }
-   
-</table>
+            <td> @gobernacion.id</td>
+            <td> @gobernacion.nombre</td>
 
-
-
-
-
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesGobernacion" asp-route-gobernacionid="@gobernacion.id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+          </tr>
+}
+  </table>
 
 

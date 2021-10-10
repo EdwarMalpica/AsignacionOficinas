@@ -163,3 +163,4 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\Ofi.App.Frontend.StaticWebAssets.Manifest.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\Ofi.App.Frontend.StaticWebAssets.xml
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.genruntimeconfig.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\listas\DetallesGobernacion.cshtml.g.cs

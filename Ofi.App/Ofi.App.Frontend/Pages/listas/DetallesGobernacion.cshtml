@@ -1,0 +1,13 @@
+﻿@page
+@model Ofi.App.Frontend.Pages.DetallesGobernacionModel
+@{
+}
+<h1>Detalles de la Gobernacion</h1>
+<table class="table">
+    <tr>
+         <td> @Model.gobernacion.id</td>
+        <td> @Model.gobernacion.nombre</td>
+            
+    </tr>
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/listas/Gobernacion">gobernaciones</a>
