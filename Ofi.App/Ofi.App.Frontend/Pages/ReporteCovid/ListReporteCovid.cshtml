@@ -1,0 +1,19 @@
+﻿@page
+@model Ofi.App.Frontend.Pages.ListReporteCovidModel
+@{
+}
+<h1> Reporte covid </h1>
+<table class="table">
+    @foreach (var item in Model.reporteCovid)
+    {
+        <tr>
+            <td> @item.id</td>
+            <td> @item.persona</td>
+            <td> @item.sintomas</td>
+            <td> @item.fechaDiagnostico</td>
+            <td> @item.tiempoAistamiento</td>
+
+        </tr>
+    }
+   
+</table>

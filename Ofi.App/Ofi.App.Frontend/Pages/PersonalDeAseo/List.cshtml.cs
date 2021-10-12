@@ -13,7 +13,9 @@ namespace Ofi.App.Frontend.Pages
     {
         //private List<PersonalDeAseo> personalDeAseos{get;set;}
         public readonly IRepositoriosPersonalDeAseo repositoriosPersonalDeAseo;
+        
         public IEnumerable<PersonalDeAseo> personalDeAseos{get;set;}
+        
         public ListModel(IRepositoriosPersonalDeAseo repositoriosPersonalDeAseo){
             this.repositoriosPersonalDeAseo = repositoriosPersonalDeAseo;
         }

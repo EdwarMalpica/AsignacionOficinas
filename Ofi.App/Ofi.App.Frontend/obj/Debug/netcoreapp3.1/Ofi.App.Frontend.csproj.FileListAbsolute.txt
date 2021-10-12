@@ -102,8 +102,6 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\PersonalDeAseo\List.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ProveedoresDeServicios\ListProvedores.cshtml.g.cs
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ReporteCovid\List.cshtml.g.cs
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Secretaria\List.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -167,3 +165,5 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.Views.pdb
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.csproj.CopyComplete
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.genruntimeconfig.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ReporteCovid\ListReporteCovid.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Secretaria\ListSecretaria.cshtml.g.cs
