@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Lx2xUPNRQQdi0coCB8M41CpIR7XVx5qVbYb2CLL5+WTkfDSYFaCqJzilV3UdPC1T97ipSxBFPZ+yqk+0NZOwvg==",
+  "dgSpecHash": "boGZBQAuPFB8xFfC3sImyyojhBhB0IJI8rbyoKyboioRzdXROTppWYPnvDRtZHqdNKVX7LRoZDxuzlccKPJ0wA==",
   "success": true,
   "projectFilePath": "C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\Ofi.App.Consola.csproj",
   "expectedPackageFiles": [
@@ -99,14 +99,8 @@
     "C:\\Users\\EDWIN\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\EDWIN\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\EDWIN\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\EDWIN\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\EDWIN\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\EDWIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Repositorios\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
