@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 =======
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csprojAssemblyReference.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfoInputs.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfo.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.CoreCompileInputs.cache
@@ -27,3 +26,5 @@ C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistenc
 C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.dll
 C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
 >>>>>>> Rama-Edwarr-Crud
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.AssemblyReference.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig

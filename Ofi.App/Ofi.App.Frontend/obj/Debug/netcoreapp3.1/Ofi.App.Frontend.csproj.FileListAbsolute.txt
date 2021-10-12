@@ -81,7 +81,6 @@ C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\b
 C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\Ofi.App.Persistencia.dll
 C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\Ofi.App.Dominio.pdb
 C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\Ofi.App.Persistencia.pdb
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.csprojAssemblyReference.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.AssemblyInfoInputs.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.AssemblyInfo.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.csproj.CoreCompileInputs.cache
@@ -104,7 +103,6 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.RazorTargetAssemblyInfo.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\Ofi.App.Frontend.exe
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\Ofi.App.Frontend.deps.json
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\bin\Debug\netcoreapp3.1\Ofi.App.Frontend.runtimeconfig.json
@@ -164,3 +162,6 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.genruntimeconfig.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\listas\DetallesGobernacion.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\listas\Gobernaciones.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.csproj.AssemblyReference.cache
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\scopedcss\bundle\Ofi.App.Frontend.styles.css
