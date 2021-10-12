@@ -17,10 +17,10 @@ namespace Ofi.App.Consola
         {
             Console.WriteLine("Hello World!");
             AdicionarGobernacion();
-            ActualizarGobernacion(2);
-            EncontrarGobernacion(2);
+            ActualizarGobernacion(4);
+           // EncontrarGobernacion(4);
             EncontrarGobernaciones();
-            EliminarGobernacion(2);
+            EliminarGobernacion(4);
         }
 
         //AdicionarGobernacion
