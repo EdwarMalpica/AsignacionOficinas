@@ -1,5 +1,5 @@
 ﻿@page
-@model Ofi.App.Frontend.Pages.GobernacionModel
+@model Ofi.App.Frontend.Pages.GobernacionesModel
 @{}
 
 <h1>Lista Gobernaciones</h1>
@@ -13,10 +13,24 @@
 
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./DetallesGobernacion" asp-route-gobernacionid="@gobernacion.id">
-                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                <i class="fas fa-align-justify" aria-hidden="true"></i></a>
             </td>
+             <td>
+                <a class="btn btn-secondary table-btn" asp-page="./EditarGobernacion" asp-route-profesorid="@gobernacion.id">
+                <i class="fas fa-edit" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./EliminarGobernacion" asp-route-profesorid="@gobernacion.id">
+                <i class="fas fa-trash-alt" aria-hidden="true"></i></a>
+            </td>
+
+
           </tr>
 }
   </table>
+
+  <a asp-page=".\EditarGobernacion" class="btn btn-primary">Adicionar Gobernacion</a>
+   <i class="fas fa-plus-circle" aria-hidden="true"></i></a>
 
 

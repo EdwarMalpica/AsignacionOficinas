@@ -10,7 +10,7 @@ using Ofi.App.Persistencia;
 
 namespace Ofi.App.Frontend.Pages
 {
-    public class GobernacionModel : PageModel
+    public class GobernacionesModel : PageModel
     {
 
         
