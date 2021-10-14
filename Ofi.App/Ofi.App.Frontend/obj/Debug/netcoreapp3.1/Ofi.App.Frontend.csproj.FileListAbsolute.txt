@@ -167,3 +167,4 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\scopedcss\bundle\Ofi.App.Frontend.styles.css
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\listas\EditarGobernacion.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\listas\EliminarGobernacion.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\listas\AdicionarGobernacion.cshtml.g.cs
