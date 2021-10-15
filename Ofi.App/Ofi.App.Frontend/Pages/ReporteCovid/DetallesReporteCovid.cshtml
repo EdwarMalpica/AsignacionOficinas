@@ -1,0 +1,17 @@
+﻿@page
+@model Ofi.App.Frontend.Pages.DetallesReporteCovidModel
+@{
+}
+<h1>Detalles Reporte</h1>
+<table class="table">
+    {
+       <tr>
+          <td>@Model.reporteCovid.id</td>
+          <td>@Model.reporteCovid.persona</td>
+          <td>@Model.reporteCovid.sintomas</td>
+          <td>@Model.reporteCovid.fechaDiagnostico</td>
+          <td>@Model.reporteCovid.tiempoAistamiento</td>
+       </tr>
+    }
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/Listas/ReporteCovid">Reporte covid</a>

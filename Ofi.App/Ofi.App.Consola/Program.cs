@@ -15,13 +15,13 @@ namespace Ofi.App.Consola
         {
             Console.WriteLine("Hello World!");
             AdicionarSecretaria();
-            ActualizarSecretaria(0);
-            EncontrarSecretaria(0);
+            ActualizarSecretaria(15);
+            EncontrarSecretaria(1);
             EncontrarSecretarias();
             EliminarSecretaria(0);
             AdicionarReporteCovid();
-            ActualizarReporteCovid(300);
-            EncontrarReporteCovid(300);
+            ActualizarReporteCovid(1);
+            EncontrarReporteCovid(1);
             EncontrarReporteCovid();
             EliminarReporteCovid(300);
         }

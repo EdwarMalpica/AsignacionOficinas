@@ -167,3 +167,11 @@ C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Ofi.App.Frontend.genruntimeconfig.cache
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ReporteCovid\ListReporteCovid.cshtml.g.cs
 C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Secretaria\ListSecretaria.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ReporteCovid\DetallesReporteCovid.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Secretaria\DetallesSecretaria.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ReporteCovid\CrearReporteCovid.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ReporteCovid\EditarReporteCovid.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ReporteCovid\EliminarReporteCovid.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Secretaria\CrearSecretaria.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Secretaria\EditarSecretaria.cshtml.g.cs
+C:\Repositorios\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Secretaria\EliminarSecretaria.cshtml.g.cs

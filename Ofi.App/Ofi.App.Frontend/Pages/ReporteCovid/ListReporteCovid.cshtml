@@ -9,11 +9,18 @@
         <tr>
             <td> @item.id</td>
             <td> @item.persona</td>
-            <td> @item.sintomas</td>
-            <td> @item.fechaDiagnostico</td>
-            <td> @item.tiempoAistamiento</td>
+            <td> 
+                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/DetallesReporteCovid"><i class="fas fa-align-justify"></i></a>
+            
+                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/EditarSecretaria"><i class="fas fa-edit"></i></a>
+             
+                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/EliminarSecretaria"><i class="fas fa-trash-alt"></i></a>
+            </td>
 
         </tr>
     }
    
 </table>
+
+<a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/CrearReporteCovid"aria-hidden="true">Crear nuevo reporte<i class="fas fa-plus-circle"></i></a>
+

@@ -1,0 +1,27 @@
+﻿@page
+@model Ofi.App.Frontend.Pages.CrearReporteCovidModel
+@{
+}
+<h1>Crear reporte</h1>
+<form method="post">
+    <input type="hidden" asp-for="reporteCovid.id">
+    <div class="form-group">
+        <label asp-for="reporteCovid.persona"></label>
+        <input asp-for="reporteCovid.persona" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="reporteCovid.sintomas"></label>
+        <input asp-for="reporteCovid.sintomas" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="reporteCovid.fechaDiagnostico"></label>
+        <input asp-for="reporteCovid.fechaDiagnostico" class="form-control">
+        <span class="text-danger" asp-validation-for="reporteCovid.fechaDiagnostico"></span> 
+    </div>
+    <div class="form-group">
+        <label asp-for="reporteCovid.tiempoAistamiento"></label>
+        <input asp-for="reporteCovid.tiempoAistamiento" class="form-control">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear reporte</button>
+</form>
