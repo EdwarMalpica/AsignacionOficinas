@@ -14402,6 +14402,16 @@
   "RootNamespace": "Ofi.App.Frontend",
   "Documents": [
     {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\ProveedoresDeServicios\\DetallesProvedores.cshtml",
+      "TargetPath": "Pages\\ProveedoresDeServicios\\DetallesProvedores.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\PersonalDeAseo\\DetallesPersonalDeAseo.cshtml",
+      "TargetPath": "Pages\\PersonalDeAseo\\DetallesPersonalDeAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14417,13 +14427,78 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\PersonalDeAseo\\EliminarPersonalDeAseo.cshtml",
+      "TargetPath": "Pages\\PersonalDeAseo\\EliminarPersonalDeAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\PersonalDeAseo\\CrearPersonalDeAseo.cshtml",
+      "TargetPath": "Pages\\PersonalDeAseo\\CrearPersonalDeAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\ProveedoresDeServicios\\EliminarProvedores.cshtml",
+      "TargetPath": "Pages\\ProveedoresDeServicios\\EliminarProvedores.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\PersonalDeAseo\\EditarPersonalDeAseo.cshtml",
+      "TargetPath": "Pages\\PersonalDeAseo\\EditarPersonalDeAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\ProveedoresDeServicios\\EditarProvedores.cshtml",
+      "TargetPath": "Pages\\ProveedoresDeServicios\\EditarProvedores.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\ProveedoresDeServicios\\ListProvedores.cshtml",
       "TargetPath": "Pages\\ProveedoresDeServicios\\ListProvedores.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14439,6 +14514,16 @@
     {
       "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\PersonalDeAseo\\ListaPersonalDeAseo.cshtml",
+      "TargetPath": "Pages\\PersonalDeAseo\\ListaPersonalDeAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\ProveedoresDeServicios\\CrearProvedores.cshtml",
+      "TargetPath": "Pages\\ProveedoresDeServicios\\CrearProvedores.cshtml",
       "FileKind": "mvc"
     },
     {

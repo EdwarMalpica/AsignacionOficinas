@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = Ofi.App.Frontend
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\
+=======
+build_property.ProjectDir = C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Frontend\
+>>>>>>> 6a0f62ad47db93b35683544ea6f1021757ec990e

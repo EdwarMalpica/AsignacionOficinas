@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d10807df-540f-4670-b523-97ab08de0580/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/WinampTwo",
+    "appService.deploySubpath": "Ofi.App\\Ofi.App.Frontend\\publish"
+}

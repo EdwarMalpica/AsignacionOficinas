@@ -1,14 +1,9 @@
 ﻿using System;
 using Ofi.App.Dominio;
 using Ofi.App.Persistencia;
-<<<<<<< HEAD
-=======
 using System.Collections.Generic;
 //using System.Collections.IEnumerable;
 
-
-
->>>>>>> Rama-Edwin-Vista
 
 namespace Ofi.App.Consola
 {
