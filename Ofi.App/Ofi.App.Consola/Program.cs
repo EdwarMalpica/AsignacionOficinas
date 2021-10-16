@@ -3,8 +3,6 @@ using Ofi.App.Dominio;
 using Ofi.App.Persistencia;
 using System.Collections.Generic;
 //using System.Collections.IEnumerable;
-
-
 namespace Ofi.App.Consola
 {
     class Program

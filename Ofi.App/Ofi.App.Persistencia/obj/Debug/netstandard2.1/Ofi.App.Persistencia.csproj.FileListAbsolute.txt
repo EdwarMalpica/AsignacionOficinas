@@ -28,3 +28,18 @@ C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistenc
 >>>>>>> Rama-Edwarr-Crud
 C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.AssemblyReference.cache
 C:\Repositorios\AsignacionOficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csprojAssemblyReference.cache
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfoInputs.cache
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.AssemblyInfo.cs
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Persistencia.deps.json
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Persistencia.dll
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Dominio.dll
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\bin\Debug\netstandard2.1\Ofi.App.Dominio.pdb
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.csproj.CopyComplete
+>>>>>>> Andrea
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.dll
+C:\Asignacion Oficinas\AsignacionOficinas\Ofi.App\Ofi.App.Persistencia\obj\Debug\netstandard2.1\Ofi.App.Persistencia.pdb
+>>>>>>> Rama-Andrea-Vista
+>>>>>>> Rama-Andread-Vista-2.0

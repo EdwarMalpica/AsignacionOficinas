@@ -15664,6 +15664,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\Listas\\Ingresos.cshtml",
+      "TargetPath": "Pages\\Listas\\Ingresos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\PersonalDeAseo\\CrearPersonalDeAseo.cshtml",
       "TargetPath": "Pages\\PersonalDeAseo\\CrearPersonalDeAseo.cshtml",
       "FileKind": "mvc"
@@ -15681,6 +15686,11 @@
     {
       "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Frontend\\Pages\\Listas\\EditarGobernadorYAsesor.cshtml",
+      "TargetPath": "Pages\\Listas\\EditarGobernadorYAsesor.cshtml",
       "FileKind": "mvc"
     },
     {
