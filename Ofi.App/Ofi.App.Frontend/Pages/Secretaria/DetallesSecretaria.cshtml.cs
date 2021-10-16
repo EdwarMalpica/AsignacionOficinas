@@ -11,17 +11,24 @@ namespace Ofi.App.Frontend.Pages
 {
     public class DetallesSecretariaModel : PageModel
     {
-         private static IRepositorioSecretaria _repoSecretaria = new RepositorioSecretaria(new Ofi.App.Persistencia.AppContext());
+        private static IRepositorioSecretaria _repoSecretaria = new RepositorioSecretaria(new Ofi.App.Persistencia.AppContext());
         public Secretaria secretarias {get; set; }
-        public IActionResult OnGet(int secretariasid)
-        {
-            secretarias = _repoSecretaria.GetSecretaria(secretariasid);
-            Console.WriteLine(secretarias.id);
-            if(secretarias == null)
+        public IActionResult OnGet(int? secretariasid)
+        {    
+            if(secretariasid.HasValue)
             {
-                return RedirectToPage("./ListSecretaria");
+             Console.WriteLine(secretarias.id);
+             secretarias = _repoSecretaria.GetSecretaria((int)secretariasid);
+            
+              if(secretarias == null)
+              {
+                  return RedirectToPage("./ListSecretaria");
+              }else{
+                  return Page();
+              }
             }else{
-                return Page();
+                  return RedirectToPage("./ListSecretaria");
+ 
             }
         }
     }

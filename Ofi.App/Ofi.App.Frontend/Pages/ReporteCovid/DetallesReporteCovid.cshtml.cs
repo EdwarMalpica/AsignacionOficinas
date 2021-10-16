@@ -13,9 +13,9 @@ namespace Ofi.App.Frontend.Pages
     {
         private static IRepositorioReporteCovid _repoReporteCovid = new RepositorioReporteCovid(new Ofi.App.Persistencia.AppContext());
         public ReporteCovid reporteCovid {get; set; }
-        public IActionResult OnGet(int ReporteCovidId)
+        public IActionResult OnGet(int? ReporteCovidid)
         {
-            reporteCovid = _repoReporteCovid.GetReporteCovid(ReporteCovidId);
+            reporteCovid = _repoReporteCovid.GetReporteCovid((int)ReporteCovidid);
             Console.WriteLine(reporteCovid.id);
             if(reporteCovid == null)
             {

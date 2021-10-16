@@ -10,11 +10,11 @@
             <td> @item.id</td>
             <td> @item.persona</td>
             <td> 
-                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/DetallesReporteCovid"><i class="fas fa-align-justify"></i></a>
+                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/DetallesReporteCovid" asp-route-ReporteCovidid="@item.id"><i class="fas fa-align-justify"></i></a>
             
-                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/EditarSecretaria"><i class="fas fa-edit"></i></a>
+                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/EditarReporteCovid"><i class="fas fa-edit"></i></a>
              
-                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/EliminarSecretaria"><i class="fas fa-trash-alt"></i></a>
+                <a class="btn btn-primary" asp-area="" asp-page="/ReporteCovid/EliminarReporteCovid"><i class="fas fa-trash-alt"></i></a>
             </td>
 
         </tr>
