@@ -17,8 +17,9 @@ namespace Ofi.App.Frontend.Pages
         {    
             if(secretariasid.HasValue)
             {
-             Console.WriteLine(secretarias.id);
+             
              secretarias = _repoSecretaria.GetSecretaria((int)secretariasid);
+             Console.WriteLine(secretarias.id);
             
               if(secretarias == null)
               {
