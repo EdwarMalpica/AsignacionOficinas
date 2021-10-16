@@ -1,0 +1,35 @@
+﻿@page
+@model miWeb.App.Frontend.Pages.CrearPersonalDeAseoModel
+@{
+}
+<h1>Crear Personal De Aseo</h1>
+<form method="post">
+    <input type="hidden" asp-for="personal.id">
+    <div class="form-group">
+        <label asp-for="personal.nombre"></label>
+        <input asp-for="personal.nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal.apellido"></label>
+        <input asp-for="personal.apellido" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal.apellido"></label>
+        <input asp-for="personal.apellido" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal.edad"></label>
+        <input asp-for="personal.edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal.estadoCovid"></label>
+        <input asp-for="personal.estadoCovid" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personal.turno"></label>
+        <input asp-for="personal.turno" class="form-control">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear Personal De Aseo</button>
+
+</form>

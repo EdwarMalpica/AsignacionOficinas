@@ -26,8 +26,8 @@ namespace Ofi.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("oficinas")
-                        .HasColumnType("int");
+                    b.Property<string>("nombre")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
 
@@ -44,12 +44,17 @@ namespace Ofi.App.Persistencia.Migrations
                     b.Property<int?>("GobernadorYAsesorid")
                         .HasColumnType("int");
 
+                    b.Property<int?>("Secretariaid")
+                        .HasColumnType("int");
+
                     b.Property<int>("aforoMaximo")
                         .HasColumnType("int");
 
                     b.HasKey("id");
 
                     b.HasIndex("GobernadorYAsesorid");
+
+                    b.HasIndex("Secretariaid");
 
                     b.ToTable("oficinas");
                 });
@@ -117,13 +122,15 @@ namespace Ofi.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("numeroOficinas")
+                    b.Property<int?>("Gobernacionid")
                         .HasColumnType("int");
 
                     b.Property<int>("tipoSecretaria")
                         .HasColumnType("int");
 
                     b.HasKey("id");
+
+                    b.HasIndex("Gobernacionid");
 
                     b.ToTable("secretarias");
                 });
@@ -150,7 +157,7 @@ namespace Ofi.App.Persistencia.Migrations
                     b.HasDiscriminator().HasValue("PersonalDeAseo");
                 });
 
-            modelBuilder.Entity("Ofi.App.Dominio.ProveedoresDeServicio", b =>
+            modelBuilder.Entity("Ofi.App.Dominio.ProveedoresDeServicios", b =>
                 {
                     b.HasBaseType("Ofi.App.Dominio.Persona");
 
@@ -159,11 +166,11 @@ namespace Ofi.App.Persistencia.Migrations
 
                     b.Property<int?>("unidadServicioid")
                         .HasColumnType("int")
-                        .HasColumnName("ProveedoresDeServicio_unidadServicioid");
+                        .HasColumnName("ProveedoresDeServicios_unidadServicioid");
 
                     b.HasIndex("unidadServicioid");
 
-                    b.HasDiscriminator().HasValue("ProveedoresDeServicio");
+                    b.HasDiscriminator().HasValue("ProveedoresDeServicios");
                 });
 
             modelBuilder.Entity("Ofi.App.Dominio.SecretariosDeDespacho", b =>
@@ -183,6 +190,10 @@ namespace Ofi.App.Persistencia.Migrations
                     b.HasOne("Ofi.App.Dominio.GobernadorYAsesor", null)
                         .WithMany("oficinasVisitadas")
                         .HasForeignKey("GobernadorYAsesorid");
+
+                    b.HasOne("Ofi.App.Dominio.Secretaria", null)
+                        .WithMany("listaOficinas")
+                        .HasForeignKey("Secretariaid");
                 });
 
             modelBuilder.Entity("Ofi.App.Dominio.ReporteCovid", b =>
@@ -194,6 +205,13 @@ namespace Ofi.App.Persistencia.Migrations
                     b.Navigation("persona");
                 });
 
+            modelBuilder.Entity("Ofi.App.Dominio.Secretaria", b =>
+                {
+                    b.HasOne("Ofi.App.Dominio.Gobernacion", null)
+                        .WithMany("listaSecretarias")
+                        .HasForeignKey("Gobernacionid");
+                });
+
             modelBuilder.Entity("Ofi.App.Dominio.PersonalDeAseo", b =>
                 {
                     b.HasOne("Ofi.App.Dominio.Secretaria", "unidadServicio")
@@ -203,7 +221,7 @@ namespace Ofi.App.Persistencia.Migrations
                     b.Navigation("unidadServicio");
                 });
 
-            modelBuilder.Entity("Ofi.App.Dominio.ProveedoresDeServicio", b =>
+            modelBuilder.Entity("Ofi.App.Dominio.ProveedoresDeServicios", b =>
                 {
                     b.HasOne("Ofi.App.Dominio.Secretaria", "unidadServicio")
                         .WithMany()
@@ -219,6 +237,16 @@ namespace Ofi.App.Persistencia.Migrations
                         .HasForeignKey("despachoid");
 
                     b.Navigation("despacho");
+                });
+
+            modelBuilder.Entity("Ofi.App.Dominio.Gobernacion", b =>
+                {
+                    b.Navigation("listaSecretarias");
+                });
+
+            modelBuilder.Entity("Ofi.App.Dominio.Secretaria", b =>
+                {
+                    b.Navigation("listaOficinas");
                 });
 
             modelBuilder.Entity("Ofi.App.Dominio.GobernadorYAsesor", b =>

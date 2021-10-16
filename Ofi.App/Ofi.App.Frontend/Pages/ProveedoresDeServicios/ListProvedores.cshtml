@@ -3,3 +3,27 @@
 @{
 }
 <h1> Lista Proveedores De Servicio</h1>
+<table class="table">
+    @foreach (var item in Model.proveedoresDeServicios)
+    {
+        <tr>
+            <td> @item.id</td>
+            <td> @item.nombre</td>
+            <td> @item.apellido</td>
+            <td> @item.edad</td>
+            <td> @item.estadoCovid</td>
+            <td> @item.servicioRealizado</td>
+
+            <td> 
+                <a class="btn btn-primary" asp-area="" asp-page="/ProveedoresDeServicios/DetallesProvedores" asp-route-proveedoresDeServiciosId="@item.id"><i class="fas fa-align-justify"></i></a>
+            
+                <a class="btn btn-primary" asp-area="" asp-page="/ProveedoresDeServicios/EditarProvedores" asp-route-proveedoresDeServiciosId="@item.id"><i class="fas fa-edit"></i></a>
+            
+                <a class="btn btn-primary" asp-area="" asp-page="/ProveedoresDeServicios/EliminarProvedores" asp-route-proveedoresDeServiciosId="@item.id"><i class="fas fa-trash-alt"></i></a>
+            </td>
+
+        </tr>
+    }
+   
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/ProveedoresDeServicios/CrearProvedores"aria-hidden="true">Crear nuevo Personal De Aseo <i class="fas fa-plus-circle"></i></a>

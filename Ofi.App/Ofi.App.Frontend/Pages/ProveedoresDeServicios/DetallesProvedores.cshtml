@@ -1,0 +1,19 @@
+﻿@page
+@model miWeb.App.Frontend.Pages.DetallesProvedoresModel
+@{
+}
+<h1>Detalles Proveedores De Servicios</h1>
+<table class="table">
+    {
+       <tr>
+         <td> @Model.proveedoresDeServicios.id</td>
+            <td> @Model.proveedoresDeServicios.nombre</td>
+            <td> @Model.proveedoresDeServicios.apellido</td>
+            <td> @Model.proveedoresDeServicios.edad</td>
+            <td> @Model.proveedoresDeServicios.estadoCovid</td>
+            <td> @Model.proveedoresDeServicios.servicioRealizado</td>
+          
+       </tr>
+    }
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/ProveedoresDeServicios/ListProvedores">PersonalDeAseo</a>

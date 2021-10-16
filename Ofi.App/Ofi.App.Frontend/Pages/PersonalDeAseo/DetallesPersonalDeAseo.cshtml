@@ -1,0 +1,19 @@
+﻿@page
+@model miWeb.App.Frontend.Pages.DetallesPersonalDeAseoModel
+@{
+}
+<h1>Detalles Personal De Aseo</h1>
+<table class="table">
+    {
+       <tr>
+         <td> @Model.personal.id</td>
+            <td> @Model.personal.nombre</td>
+            <td> @Model.personal.apellido</td>
+            <td> @Model.personal.edad</td>
+            <td> @Model.personal.estadoCovid</td>
+            <td> @Model.personal.turno</td>
+          
+       </tr>
+    }
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/PersonalDeAseo/ListaPersonalDeAseo">PersonalDeAseo</a>
