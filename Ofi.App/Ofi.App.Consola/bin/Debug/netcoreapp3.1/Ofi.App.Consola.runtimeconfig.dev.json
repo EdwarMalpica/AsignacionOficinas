@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\natal\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\natal\\.nuget\\packages"
+      "C:\\Users\\eduar\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\eduar\\.nuget\\packages"
     ]
   }
 }
