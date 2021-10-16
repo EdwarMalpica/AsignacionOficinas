@@ -22,7 +22,7 @@ public interface IRepositorioGobernacion
     Gobernacion UpdateGobernacion(Gobernacion gobernacion);
 
     //DeleteGobernacion
-    void DeleteGobernacion(int idGobernacion);
+    Gobernacion DeleteGobernacion(Gobernacion gobernacion);
 
 
 

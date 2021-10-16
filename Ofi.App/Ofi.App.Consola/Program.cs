@@ -20,7 +20,7 @@ namespace Ofi.App.Consola
             ActualizarGobernacion(4);
            // EncontrarGobernacion(4);
             EncontrarGobernaciones();
-            EliminarGobernacion(4);
+            //EliminarGobernacion();
         }
 
         //AdicionarGobernacion
@@ -82,14 +82,21 @@ namespace Ofi.App.Consola
 
         //EliminarGobernacion
 
-     private static void EliminarGobernacion (int idGobernacion)
+     private static void EliminarGobernacion (Gobernacion gobernacion)
         {
-            _repoGobernacion.DeleteGobernacion(idGobernacion);
-            Console.WriteLine("Se elimino");
+            var GobernacionEliminada=_repoGobernacion.DeleteGobernacion(gobernacion);
+            if(gobernacion!=null)
+                Console.WriteLine("se elimino Gobernacion");
+            else {
+                Console.WriteLine("Error al acceder");
+            }
+           
 
         }
 
 
 
     }
+
+
 }

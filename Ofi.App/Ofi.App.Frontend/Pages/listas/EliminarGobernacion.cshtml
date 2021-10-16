@@ -2,3 +2,16 @@
 @model Ofi.App.Frontend.Pages.EliminarGobernacionModel
 @{
 }
+
+
+<h1> Eliminar Gobernacion</h1>
+<table class="table">
+    <tr>
+        <td>@Model.gobernacion.nombre</td>
+        
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="gobernacion.id">
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+</form>

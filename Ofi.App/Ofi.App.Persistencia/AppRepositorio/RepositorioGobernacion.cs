@@ -62,13 +62,14 @@ namespace Ofi.App.Persistencia
             }
 
             //DeleteGobernacion
-            void IRepositorioGobernacion.DeleteGobernacion (int idGobernacion)
+            Gobernacion IRepositorioGobernacion.DeleteGobernacion (Gobernacion gobernacion)
             {
-                var GobernacionEncontrada =_appContext.gobernaciones.FirstOrDefault(g=>g.id==idGobernacion);
+                var GobernacionEncontrada =_appContext.gobernaciones.FirstOrDefault(g=>g.id==gobernacion.id);
                 if(GobernacionEncontrada==null)
-                        return;
+                        return null;
                 _appContext.gobernaciones.Remove(GobernacionEncontrada);
                 _appContext.SaveChanges();
+                return GobernacionEncontrada;
 
 
 
