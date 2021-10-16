@@ -1,0 +1,18 @@
+﻿@page
+@model miWeb.App.Frontend.Pages.EliminarPersonalDeAseoModel
+@{
+}
+<h1> Eliminar Personal De Aseo</h1>
+<table class="table">
+    <tr>
+        <td>@Model.personal.nombre</td>
+        <td>@Model.personal.apellido</td>
+        <td>@Model.personal.edad</td>
+        <td>@Model.personal.estadoCovid</td>
+        <td>@Model.personal.turno</td>
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="personal.id">
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+</form>

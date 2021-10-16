@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ya7IDYALQsAVo2d//Zb1z0XxCM26l/zT0FXBn6/JGWdLzzeGomB+trf9X5b+Wt/A8hyGGhx8r9oUVQqhnfZjfQ==",
+  "dgSpecHash": "YaHPgOYmoCsl6jYyTBLlWCKpPqe1av8DKfFnv5L8zvlxQMNIp+JR0FvqRtZZd4UbmyXuM7+1kDPYeRkCOIAyAg==",
   "success": true,
   "projectFilePath": "C:\\Repositorios\\AsignacionOficinas\\AsignacionOficinas\\Ofi.App\\Ofi.App.Consola\\Ofi.App.Consola.csproj",
   "expectedPackageFiles": [
@@ -99,7 +99,8 @@
     "C:\\Users\\eduar\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\eduar\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\eduar\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\eduar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
   ],
   "logs": []
 }
