@@ -13,7 +13,7 @@ namespace Ofi.App.Persistencia
         public DbSet<ReporteCovid>              reporte_covid {get;set;}
         public DbSet<PersonalDeAseo>            personal_de_aseo {get;set;}
         public DbSet<SecretariosDeDespacho>     secretarios_de_despacho {get;set;}
-        public DbSet<ProveedoresDeServicio>     proveedores_de_servicio {get;set;}
+        public DbSet<ProveedoresDeServicios>     proveedores_de_servicio {get;set;}
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
         if(!optionsBuilder.IsConfigured){

@@ -1,0 +1,13 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+<<<<<<< HEAD
+      "C:\\Users\\eduar\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\eduar\\.nuget\\packages"
+=======
+      "C:\\Users\\EDWIN\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\EDWIN\\.nuget\\packages"
+>>>>>>> Rama-Edwin-Vista
+    ]
+  }
+}
