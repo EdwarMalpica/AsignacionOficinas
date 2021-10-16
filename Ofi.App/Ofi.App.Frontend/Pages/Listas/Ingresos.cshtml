@@ -1,0 +1,28 @@
+﻿@page
+@model Ofi.App.Frontend.Pages.IngresosModel
+@{
+}
+<h1>Listado Ingresos</h1>
+<table class="table">
+    @foreach (var ingreso in Model.Ingresos)
+    {
+        <tr>
+            <td>@ingreso.horaIngreso</td>
+            <td>@ingreso.persona</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Detalles" asp-route-ingresoid="@ingreso.id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="./Editar" asp-route-ingresoid="@ingreso.id">
+                <i class="fas fa-address-book" aria-hidden="true"></i></a>
+            </td>
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./Eliminar" asp-route-ingresoid="@ingreso.id">
+                <i class="fas fa-book-dead" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    }
+
+</table>
+<a asp-page=".\Editar" class="btn btn-primary">Adicionar Ingreso</a>

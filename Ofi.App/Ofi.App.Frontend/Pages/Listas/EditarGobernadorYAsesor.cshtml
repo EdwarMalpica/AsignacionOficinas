@@ -1,0 +1,16 @@
+﻿@page
+@model Ofi.App.Frontend.Pages.EditarGobernadorYAsesorModel
+@{
+}
+<h1>Editar GobernadorYAsesor</h1>
+<form method="post">
+    <input type="hidden" asp-for="gobernadoryasesor.id">
+    <div class="form-group">
+        <label asp-for="gobernadoryasesor.oficinasVisitadas"></label>
+        <input asp-for="gobernadoryasesor.oficinasVisitadas" class="form-control">
+        <span class="text-danger" asp-validation-for="gobernadoryasesor.oficinasVisitadas"></span>
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
